@@ -19,8 +19,6 @@
 .nav a {
   padding-left: 13px;
   padding-right: 13px;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #9dafbd;
@@ -31,6 +29,29 @@
   color: #ea4c89;
 }
 
-.active {
-  color: #224279 !important;
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu a {
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #9dafbd;
+  line-height: 45px;
+  margin-left: 20px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 968px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
