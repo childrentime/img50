@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "../../components/Header";
 import ContainerText from "./containerText";
+import Footer from "./footer";
 import Overexposure from "./overexposure";
 import Style from "./style.module.css";
 import Underexposure from "./underexposure";
@@ -16,6 +17,7 @@ const Img50 = () => {
         <Wrapper />
         <Underexposure />
         <Overexposure />
+        <Footer />
       </div>
     </div>
   );

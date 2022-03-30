@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #969696;
+}
+.left {
+  padding-left: 20px;
+}
+.right {
+  padding-right: 40px;
+}
+.white {
+  height: 50px;
+}
+@media screen and (max-width: 950px) {
+  .container {
+    flex-direction: column;
+  }
+}

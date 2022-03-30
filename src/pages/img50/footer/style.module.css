@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f2f2f2;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  width: 50%;
+  font-size: 48px;
+}
+@media screen and (max-width: 950px) {
+  .container {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
