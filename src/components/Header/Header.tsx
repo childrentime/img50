@@ -30,7 +30,10 @@ const Header = (props: {
               onClick={() => setVisibe(true)}
             />
           </div>
-          <div style={!visible ? { display: "none" } : {}}>
+          <div
+            className={Style.mobile}
+            style={!visible ? { display: "none" } : {}}
+          >
             <Image
               src={fork}
               alt="fork"
