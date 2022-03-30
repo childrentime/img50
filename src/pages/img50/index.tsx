@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "../../components/Header";
 import ContainerText from "./containerText";
 import Style from "./style.module.css";
+import Underexposure from "./underexposure";
 import Wrapper from "./wrapper";
 
 const Img50 = () => {
@@ -12,6 +13,7 @@ const Img50 = () => {
       <div style={visible ? { display: "none" } : {}}>
         <ContainerText />
         <Wrapper />
+        <Underexposure />
       </div>
     </div>
   );
