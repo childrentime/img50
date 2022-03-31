@@ -21,6 +21,7 @@
   transition: transform 1000ms cubic-bezier(0.385, 0, 0.08, 1),
     opacity 1000ms cubic-bezier(0.385, 0, 0.08, 1);
   transition-delay: 0s;
+  font-weight: 600;
 }
 .text {
   transform: translateY(30px);
