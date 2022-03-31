@@ -10,7 +10,7 @@ const ContainerText = () => {
   }, []);
   return (
     <div className={`${Style.containerText}`} ref={containerRef}>
-      <h1 className={Style.h1}>Super Photo Brows</h1>
+      <h1 className={Style.h1}>Super Photo Browser</h1>
       <p className={Style.text}>
         Img50% is a network platform that provides precise algorithm functions
         for image processing enthusiasts. Thrive digitally as we improve your
