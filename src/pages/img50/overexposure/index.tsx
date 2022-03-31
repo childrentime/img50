@@ -1,13 +1,38 @@
 import Style from "./style.module.css";
 import { Button } from "antd";
 import over from "../../../assets/images/over.png";
+import { useEffect, useRef } from "react";
 const Overexposure = () => {
+  const imageRef = useRef<HTMLImageElement>(null);
+  const textRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const intersectionImageObserver = new IntersectionObserver(function (
+      entries
+    ) {
+      if (entries[0].isIntersecting === true) {
+        imageRef.current!.style.animationName = `${Style.rightSlidein}`;
+      } else {
+        imageRef.current!.style.animationName = "";
+      }
+    });
+    const intersectionTextObserver = new IntersectionObserver(function (
+      entries
+    ) {
+      if (entries[0].isIntersecting === true) {
+        textRef.current!.style.animationName = `${Style.textSlidein}`;
+      } else {
+        textRef.current!.style.animationName = "";
+      }
+    });
+    intersectionImageObserver.observe(imageRef.current!);
+    intersectionTextObserver.observe(textRef.current!);
+  }, []);
   return (
     <div className={Style.container}>
       <div className={Style.right}>
-        <img src={over} className={Style.image} alt="" />
+        <img src={over} className={Style.image} alt="" ref={imageRef} />
       </div>
-      <div className={Style.left}>
+      <div className={Style.left} ref={textRef}>
         <div className={Style.title}>Overexposure image enhancer</div>
         <p className={Style.p}>
           Have no photo editing skills? You don't need to. Img50%'s powerful

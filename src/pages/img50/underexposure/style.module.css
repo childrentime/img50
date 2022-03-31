@@ -2,14 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .left {
   display: flex;
   flex-direction: column;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.1s;
 }
 .right {
   padding-left: 60px;
@@ -29,6 +32,29 @@
 }
 .image {
   width: 500px;
+  animation-duration: 0.5s;
+  animation-delay: 0.1s;
+}
+@keyframes leftSlidein {
+  0% {
+    opacity: 0;
+    transform: translate3d(-18%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes rightSlidein {
+  0% {
+    opacity: 0;
+    transform: translate3d(18%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 @media screen and (max-width: 950px) {
   .container {

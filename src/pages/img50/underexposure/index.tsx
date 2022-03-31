@@ -1,10 +1,35 @@
 import Style from "./style.module.css";
 import compare from "../../../assets/images/compare.png";
 import { Button } from "antd";
+import { useEffect, useRef } from "react";
 const Underexposure = () => {
+  const imageRef = useRef<HTMLImageElement>(null);
+  const textRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const intersectionImageObserver = new IntersectionObserver(function (
+      entries
+    ) {
+      if (entries[0].isIntersecting === true) {
+        imageRef.current!.style.animationName = `${Style.rightSlidein}`;
+      } else {
+        imageRef.current!.style.animationName = "";
+      }
+    });
+    const intersectionTextObserver = new IntersectionObserver(function (
+      entries
+    ) {
+      if (entries[0].isIntersecting === true) {
+        textRef.current!.style.animationName = `${Style.leftSlidein}`;
+      } else {
+        textRef.current!.style.animationName = "";
+      }
+    });
+    intersectionImageObserver.observe(imageRef.current!);
+    intersectionTextObserver.observe(textRef.current!);
+  }, []);
   return (
     <div className={Style.container}>
-      <div className={Style.left}>
+      <div className={Style.left} ref={textRef}>
         <div className={Style.title}>Underexposure image enhancer</div>
         <p className={Style.p}>
           Img50% Free Image Enhancement offers brand new image enhancement tools
@@ -23,7 +48,7 @@ const Underexposure = () => {
         </div>
       </div>
       <div className={Style.right}>
-        <img src={compare} alt="" className={Style.image} />
+        <img src={compare} alt="" className={Style.image} ref={imageRef} />
       </div>
     </div>
   );
