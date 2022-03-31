@@ -1,13 +1,13 @@
 import Style from "./style.module.css";
-import { Image, Button } from "antd";
+import { Button } from "antd";
 import over from "../../../assets/images/over.png";
 const Overexposure = () => {
   return (
     <div className={Style.container}>
-      <div className={Style.left}>
-        <Image src={over} preview={false} />
-      </div>
       <div className={Style.right}>
+        <img src={over} className={Style.image} alt="" />
+      </div>
+      <div className={Style.left}>
         <div className={Style.title}>Overexposure image enhancer</div>
         <p className={Style.p}>
           Have no photo editing skills? You don't need to. Img50%'s powerful

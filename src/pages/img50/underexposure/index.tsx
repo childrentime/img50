@@ -1,6 +1,6 @@
 import Style from "./style.module.css";
 import compare from "../../../assets/images/compare.png";
-import { Image, Button } from "antd";
+import { Button } from "antd";
 const Underexposure = () => {
   return (
     <div className={Style.container}>
@@ -23,7 +23,7 @@ const Underexposure = () => {
         </div>
       </div>
       <div className={Style.right}>
-        <Image src={compare} preview={false} />
+        <img src={compare} alt="" className={Style.image} />
       </div>
     </div>
   );

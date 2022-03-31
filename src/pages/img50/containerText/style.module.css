@@ -36,6 +36,7 @@
   color: #606469;
   font-size: 20px;
   line-height: 30px;
+  max-width: 600px;
 }
 .containerButton {
   transform: translateY(30px);
