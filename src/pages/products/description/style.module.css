@@ -1,0 +1,14 @@
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1 {
+  font-weight: bold;
+}
+.p {
+  max-width: 500px;
+  color: #c2c2c2;
+}
