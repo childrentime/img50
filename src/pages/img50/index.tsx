@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import ContainerText from "./containerText";
-import Footer from "./footer";
 import Overexposure from "./overexposure";
 import Style from "./style.module.css";
 import Underexposure from "./underexposure";
