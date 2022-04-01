@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import Description from "./description";
 import Style from "./style.module.css";
 import UploadImage from "./uploadImage";
@@ -12,6 +13,7 @@ const Product = () => {
       <div style={visible ? { display: "none" } : {}}>
         <Description />
         <UploadImage />
+        <Footer />
       </div>
     </div>
   );
