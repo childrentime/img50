@@ -1,0 +1,57 @@
+.process {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #133570;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pLeft {
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.pRight {
+  flex: 1;
+  padding-right: 40px;
+}
+.imageText {
+  color: #224279;
+}
+
+.uploadText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.uploadIcon {
+  margin-right: 15px;
+}
+.icon {
+  cursor: pointer;
+}
+.mask {
+  position: relative;
+  width: 100px;
+  height: 60px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #333;
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(101, 101, 101, 0.6);
+  color: white;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
