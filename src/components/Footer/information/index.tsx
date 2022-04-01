@@ -1,5 +1,5 @@
 import Style from "./style.module.css";
-import logo from "../../../../assets/images/logo.png";
+import logo from "../../../assets/images/logo.png";
 import { Image, Input, Button } from "antd";
 import facebook from "./fackbook.svg";
 import twitter from "./twitter.svg";

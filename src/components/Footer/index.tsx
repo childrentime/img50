@@ -1,5 +1,5 @@
 import Style from "./style.module.css";
-import footer from "../../../assets/images/footer.png";
+import footer from "../../assets/images/footer.png";
 import { Image } from "antd";
 import Information from "./information";
 import Copyright from "./copyright";
