@@ -36,6 +36,8 @@ const Delicacy = () => {
               </Button>
             </div>
           </div>
+        </div>
+        <div className={Style.image}>
           <div className={Style.imageC}>
             <DragImage url={a2} urlC={a2C} />
             <div className={Style.imageD}>
