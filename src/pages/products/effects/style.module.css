@@ -1,0 +1,19 @@
+.container {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.button {
+  margin-right: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+.comparator {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.divider {
+  align-items: center;
+  background-color: gray;
+  cursor: col-resize;
+  display: flex;
+  height: calc(50% - 20px);
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 2px;
+  z-index: 3;
+}
+.divider:before {
+  background-color: initial;
+  border: 4px solid gray;
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: "";
+  cursor: col-resize;
+  height: 40px;
+  position: absolute;
+  top: 100%;
+  width: 40px;
+}
+.divider:after {
+  align-items: center;
+  background-color: gray;
+  content: "";
+  cursor: col-resize;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  top: calc(100% + 40px);
+  width: 2px;
+  z-index: 3;
+}
+.content {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.before {
+  position: relative;
+  z-index: 2;
+}
+.after {
+  z-index: 1;
+}

@@ -1,0 +1,25 @@
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.image {
+  margin-top: 30px;
+  width: 32%;
+  max-width: 344px;
+}
+.ti {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.imageC {
+  margin-bottom: 20px;
+}
+.imageD {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

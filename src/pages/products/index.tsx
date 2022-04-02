@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import Description from "./description";
 import Style from "./style.module.css";
 import UploadImage from "./uploadImage";
+import Effect from "./effects";
 
 const Product = () => {
   const [visible, setVisibe] = useState(false);
@@ -13,6 +14,7 @@ const Product = () => {
       <div style={visible ? { display: "none" } : {}}>
         <Description />
         <UploadImage />
+        <Effect />
         <Footer />
       </div>
     </div>
