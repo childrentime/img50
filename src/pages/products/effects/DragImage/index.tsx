@@ -10,6 +10,9 @@ const DragImage = (props: { url: string; urlC: string }) => {
     compareRef.current!.onmousemove = (event: MouseEvent) => {
       setWidth(event.clientX - init);
     };
+    compareRef.current!.ontouchmove = (event: TouchEvent) => {
+      setWidth(event.touches[0].clientX - init);
+    };
   }, []);
   return (
     <div className={Style.comparator} ref={compareRef}>
