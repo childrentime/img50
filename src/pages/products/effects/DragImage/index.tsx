@@ -11,7 +11,13 @@ const DragImage = (props: { url: string; urlC: string }) => {
       setWidth(event.pageX - init);
     };
     compareRef.current!.ontouchmove = (event: TouchEvent) => {
-      setWidth(event.touches[0].pageX - init);
+      const max = 334;
+      const v = event.touches[0].pageX - init;
+      if (v > max) {
+        setWidth(max);
+      } else {
+        setWidth(v);
+      }
     };
   }, []);
   return (
