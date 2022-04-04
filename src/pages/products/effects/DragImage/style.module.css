@@ -1,5 +1,4 @@
 .comparator {
-  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -44,8 +43,6 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
 }
 .before {
   position: relative;
@@ -53,12 +50,4 @@
 }
 .after {
   z-index: 1;
-}
-.img {
-  width: 400px;
-}
-@media screen and (max-width: 500px) {
-  .img {
-    width: 334px;
-  }
 }
