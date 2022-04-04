@@ -54,3 +54,11 @@
 .after {
   z-index: 1;
 }
+.img {
+  width: 400px;
+}
+@media screen and (max-width: 500px) {
+  .img {
+    width: 334px;
+  }
+}

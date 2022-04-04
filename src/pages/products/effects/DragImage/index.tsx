@@ -8,10 +8,10 @@ const DragImage = (props: { url: string; urlC: string }) => {
   useEffect(() => {
     const init = Math.round(compareRef.current!.getBoundingClientRect().left);
     compareRef.current!.onmousemove = (event: MouseEvent) => {
-      setWidth(event.clientX - init);
+      setWidth(event.pageX - init);
     };
     compareRef.current!.ontouchmove = (event: TouchEvent) => {
-      setWidth(event.touches[0].clientX - init);
+      setWidth(event.touches[0].pageX - init);
     };
   }, []);
   return (
@@ -25,11 +25,11 @@ const DragImage = (props: { url: string; urlC: string }) => {
         className={`${Style.before} ${Style.content}`}
         style={{ width: `${width}px` }}
       >
-        <img src={urlC} alt="" style={{ width: "400px" }} />
+        <img src={urlC} alt="" className={Style.img} />
       </div>
 
       <div className={`${Style.after} ${Style.content}`}>
-        <img src={url} alt="" style={{ width: "400px" }} />
+        <img src={url} alt="" className={Style.img} />
       </div>
     </div>
   );
