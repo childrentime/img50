@@ -55,3 +55,17 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 950px) {
+  .process {
+    align-items: center;
+  }
+  .pLeft {
+    padding-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .pRight {
+    padding: 0;
+  }
+}

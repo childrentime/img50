@@ -12,3 +12,9 @@
   max-width: 500px;
   color: #c2c2c2;
 }
+@media screen and (max-width: 950px) {
+  .p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

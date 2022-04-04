@@ -29,3 +29,9 @@
   color: #9dafbd;
   font-size: 14px;
 }
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

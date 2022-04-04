@@ -2,18 +2,61 @@
   padding-top: 20px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 20px;
 }
 .text {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.slider {
+  isolation: isolate;
+  position: relative;
+}
+.buttonContainer {
+  box-sizing: initial;
+  display: flex;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+.buttonFlex {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
 .buttons {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-bottom: 20px;
+  margin-bottom: 0;
+  margin-left: -8px;
 }
 .button {
-  margin-right: 10px;
-  border-radius: 10px;
+  padding-bottom: 0;
+  padding-left: 8px;
+}
+.base {
+  text-transform: capitalize;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  transition: border-color 0.1s ease-in-out;
+  width: 145px;
+}
+.a {
+  font-size: 14px;
+  line-height: 1;
+  padding: 13px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  color: #767676;
+  text-decoration-skip-ink: auto;
+  transition: color 0.1s ease-in-out, opacity 0.1s ease-in-out;
+  cursor: pointer;
+}
+@media screen and (max-width: 950px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
