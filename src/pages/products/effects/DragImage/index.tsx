@@ -29,7 +29,7 @@ const DragImage = (props: { url: string; urlC: string }) => {
       </div>
 
       <div className={`${Style.after} ${Style.content}`}>
-        <img src={url} alt="" style={{ width: "100%" }} />
+        <img src={url} alt="" style={{ width: "100%", height: "100%" }} />
       </div>
     </div>
   );
