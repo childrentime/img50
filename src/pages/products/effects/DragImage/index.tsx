@@ -25,11 +25,11 @@ const DragImage = (props: { url: string; urlC: string }) => {
         className={`${Style.before} ${Style.content}`}
         style={{ width: `${width}px` }}
       >
-        <img src={urlC} alt="" />
+        <img src={urlC} alt="" style={{ width: "400px" }} />
       </div>
 
       <div className={`${Style.after} ${Style.content}`}>
-        <img src={url} alt="" style={{ width: "100%", height: "100%" }} />
+        <img src={url} alt="" style={{ width: "400px" }} />
       </div>
     </div>
   );
