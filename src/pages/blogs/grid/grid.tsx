@@ -8,10 +8,17 @@ import img50 from "./img50.png";
 import situation from "./situation.png";
 import vs from "./vs.png";
 import software from "./software.png";
+import { useNavigate } from "react-router-dom";
 const Grid = () => {
+  const navigation = useNavigate();
   return (
     <div className={Style.container}>
-      <div className={Style.row}>
+      <div
+        className={Style.row}
+        onClick={() => {
+          navigation("/who");
+        }}
+      >
         <div className={Style.card}>
           <div className={Style.imageWrapper}>
             <img

@@ -1,0 +1,23 @@
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 32px;
+  line-height: 40px;
+  padding: 10px;
+}
+.email {
+  color: #9dafbd;
+  font-size: 14px;
+  padding: 2px;
+}
+.phone {
+  color: #9dafbd;
+  font-size: 14px;
+  padding: 2px;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+.text {
+  color: #9dafbd;
+  text-align: center;
+}

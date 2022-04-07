@@ -8,3 +8,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+@media screen and (max-width: 500px) {
+  .ant-radio-wrapper {
+    display: flex !important;
+  }
+}

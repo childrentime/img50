@@ -1,0 +1,8 @@
+.h1 {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+  padding: 20px;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  padding: 10px;
+  font-size: 32px;
+  line-height: 40px;
+}
+.radios {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.form {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 12px 30px 0 rgb(59 59 97 / 18%);
+  width: 75%;
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.blank {
+  width: 40px;
+}
+.message {
+  padding-bottom: 20px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .inputs {
+    flex-direction: column;
+  }
+  .blank {
+    height: 20px;
+  }
+}
