@@ -1,0 +1,135 @@
+.titleWrapper {
+  font-size: 50px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  position: relative;
+  margin-bottom: 3rem !important;
+  margin-top: 3rem !important;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  transition: transform 1s cubic-bezier(0, 0, 0.2, 1);
+  transform: translateX(0%);
+  position: relative;
+  font-size: 60px !important;
+  line-height: 60px !important;
+  color: #091e3f;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 42px !important;
+    line-height: 50px !important;
+  }
+}
+
+.searchContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .searchContainer {
+    position: relative;
+    right: -2px;
+    top: 3px;
+    width: 100%;
+  }
+  .title {
+    transform: translateX(0%) !important;
+  }
+}
+.searchForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+.search {
+  font-size: 18px;
+  padding: 0;
+  margin-top: 3px;
+}
+@keyframes inputin {
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+.searchInput {
+  padding: 15px 30px;
+  font-family: OpenSans-Regular;
+  color: #606469;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+  border: none;
+  border-left: 10px solid #044a75;
+  right: 30px;
+  position: absolute;
+  width: 0%;
+  opacity: 0;
+  font-size: 16px;
+  line-height: normal !important;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.1s;
+}
+.searchInput:focus {
+  outline: none;
+}
+.col1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+.open {
+  float: left;
+  transition: color 0.2s ease;
+  width: 30px;
+}
+.close {
+  float: left;
+  transition: color 0.2s ease;
+}
+
+.icon {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    margin-left: 0;
+  }
+  @keyframes inputin {
+    100% {
+      opacity: 1;
+      width: 96%;
+    }
+  }
+}

@@ -4,7 +4,7 @@
 }
 .divider {
   align-items: center;
-  background-color: gray;
+  background-color: white;
   cursor: col-resize;
   display: flex;
   height: calc(50% - 20px);
@@ -16,7 +16,7 @@
 }
 .divider:before {
   background-color: initial;
-  border: 4px solid gray;
+  border: 4px solid white;
   border-radius: 50%;
   box-sizing: border-box;
   content: "";
@@ -28,7 +28,7 @@
 }
 .divider:after {
   align-items: center;
-  background-color: gray;
+  background-color: white;
   content: "";
   cursor: col-resize;
   display: flex;

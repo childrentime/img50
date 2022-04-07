@@ -9,7 +9,7 @@ import StillLife from "./still life";
 import Style from "./style.module.css";
 
 const Effect = () => {
-  const [type, setType] = useState("arch");
+  const [type, setType] = useState("me");
   return (
     <div className={Style.container}>
       <div className={Style.text}>The demonstration of effects</div>
