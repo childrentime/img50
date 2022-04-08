@@ -6,6 +6,7 @@
   margin-bottom: 20px;
 }
 .row {
+  cursor: pointer;
   position: relative;
   width: 100%;
   padding-right: 15px;

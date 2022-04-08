@@ -1,0 +1,21 @@
+.author {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.imageContainer {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.date {
+  color: #969696;
+  font-size: 12px;
+}

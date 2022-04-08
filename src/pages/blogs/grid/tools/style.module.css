@@ -30,4 +30,26 @@
   line-height: 30px;
   font-weight: 500;
   margin-bottom: 0 !important;
+  flex: 1;
+}
+
+.h1 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.h3 {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: underline;
+  padding-left: 10px;
+  width: 200px !important;
+}
+
+.compare {
+  display: flex;
+  align-items: baseline;
 }

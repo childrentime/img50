@@ -35,7 +35,12 @@ const Grid = () => {
           </div>
         </div>
       </div>
-      <div className={Style.row}>
+      <div
+        className={Style.row}
+        onClick={() => {
+          navigation("/blog/2022");
+        }}
+      >
         <div className={Style.card}>
           <div className={Style.imageWrapper}>
             <img
@@ -52,7 +57,12 @@ const Grid = () => {
           </div>
         </div>
       </div>
-      <div className={Style.row}>
+      <div
+        className={Style.row}
+        onClick={() => {
+          navigation("/blog/tools");
+        }}
+      >
         <div className={Style.card}>
           <div className={Style.imageWrapper}>
             <img
@@ -129,7 +139,12 @@ const Grid = () => {
           </div>
         </div>
       </div>
-      <div className={Style.row}>
+      <div
+        className={Style.row}
+        onClick={() => {
+          navigation("/blog/vs");
+        }}
+      >
         <div className={Style.card}>
           <div className={Style.imageWrapper}>
             <img
