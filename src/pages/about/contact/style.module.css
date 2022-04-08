@@ -20,6 +20,7 @@
   border-radius: 2px;
   box-shadow: 0 12px 30px 0 rgb(59 59 97 / 18%);
   width: 75%;
+  max-width: 960px;
 }
 .inputs {
   display: flex;

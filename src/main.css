@@ -13,3 +13,55 @@
     display: flex !important;
   }
 }
+[title] {
+  cursor: pointer;
+}
+
+[title]::before {
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 0 0 12px rgb(37 48 83 / 25%);
+  content: attr(title);
+  visibility: none;
+  width: 245px;
+  font-size: 14px;
+  padding: 15px 20px;
+  background: #253053;
+  color: #fff;
+  font-weight: 700;
+  line-height: 19px;
+  z-index: 99;
+  left: -240px;
+  top: 33px;
+  border-radius: 0;
+}
+
+[title]::after {
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 0 0 12px rgb(37 48 83 / 25%);
+  visibility: hidden;
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: transparent transparent #253053;
+  border-style: solid;
+  border-width: 0 6.47px 6.47px;
+  top: 27px;
+  left: 3px;
+}
+
+[title]:hover::before {
+  pointer-events: visible;
+  opacity: 0.9;
+  visibility: visible;
+}
+[title]:hover::after {
+  pointer-events: visible;
+  opacity: 0.9;
+  visibility: visible;
+}

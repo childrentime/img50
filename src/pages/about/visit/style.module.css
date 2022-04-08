@@ -15,3 +15,109 @@
   color: #9dafbd;
   text-align: center;
 }
+.mapContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mapContainer:last-child {
+  margin-bottom: 0;
+}
+.map {
+  background: url("./map.webp") no-repeat 0 0;
+  background-size: 100%;
+  padding-top: 54.34%;
+  position: relative;
+  width: 100%;
+}
+.pointM {
+  width: 36px !important;
+  height: 36px !important;
+  transform: translate(-18px, -18px) !important;
+}
+.pointXL {
+  width: 100px !important;
+  height: 100px !important;
+  transform: translate(-50px, -50px) !important;
+}
+.pointL {
+  width: 64px !important;
+  height: 64px !important;
+  transform: translate(-32px, -32px) !important;
+}
+.point:first-child {
+  top: 80%;
+  left: 87%;
+}
+.point:nth-child(2) {
+  top: 23%;
+  left: 56%;
+}
+.point:nth-child(3) {
+  top: 31%;
+  left: 52%;
+}
+.point:nth-child(4) {
+  top: 34%;
+  left: 18%;
+}
+.point:nth-child(5) {
+  top: 24%;
+  left: 53%;
+}
+.point:nth-child(6) {
+  top: 67%;
+  left: 31%;
+}
+.point {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  transform: translate(-12.5px, -12.5px);
+  border-radius: 50%;
+  background: rgba(41, 77, 255, 0.3);
+  opacity: 0.77;
+  cursor: pointer;
+  transition: opacity 0.3s ease-out;
+  transform-origin: top left;
+}
+.point::before {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  content: "";
+  width: 34%;
+  height: 34%;
+  background: #294dff;
+  display: block;
+  border-radius: 50%;
+}
+.point:hover {
+  opacity: 1;
+  z-index: 10;
+}
+.tip {
+  color: #2f3a5e;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.tip::before {
+  width: 140px !important;
+  top: calc(50% + 27px) !important;
+  left: calc(50% - 70px) !important;
+}
+.tip::after {
+  top: calc(50% + 21px) !important;
+  left: calc(50% - 6px) !important;
+}
