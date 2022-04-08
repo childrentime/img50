@@ -16,7 +16,7 @@ const Grid = () => {
       <div
         className={Style.row}
         onClick={() => {
-          navigation("/who");
+          navigation("/blog/who");
         }}
       >
         <div className={Style.card}>

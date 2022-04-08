@@ -48,6 +48,17 @@
   height: 64px !important;
   transform: translate(-32px, -32px) !important;
 }
+@media screen and (max-width: 768px) {
+  .pointXL {
+    transform: scale(0.5) translate(-50px, -50px) !important;
+  }
+  .pointM {
+    transform: scale(0.5) translate(-18px, -18px) !important;
+  }
+  .pointL {
+    transform: scale(0.5) translate(-32px, -32px) !important;
+  }
+}
 .point:first-child {
   top: 80%;
   left: 87%;
