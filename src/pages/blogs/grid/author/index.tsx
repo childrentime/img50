@@ -1,16 +1,11 @@
 import Style from "./style.module.css";
-import { Image } from "antd";
+import { Avatar } from "antd";
 import avatar from "./avatar.png";
 const Author = () => {
   return (
     <div className={Style.author}>
       <div className={Style.imageContainer}>
-        <Image
-          src={avatar}
-          preview={false}
-          height={60}
-          className={Style.image}
-        />
+        <Avatar src={avatar} className={Style.image} size="large" />
       </div>
       <div>
         <div className={Style.name}>Zhangqi</div>

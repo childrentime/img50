@@ -21,6 +21,6 @@
 }
 
 .image {
-  width: 40px;
-  height: 60px;
+  width: 50px !important;
+  height: 50px !important;
 }
