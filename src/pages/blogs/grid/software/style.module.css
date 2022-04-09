@@ -37,9 +37,18 @@
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 24px;
+  font-size: 34px;
 }
 
 .images {
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 20px;
+  }
 }
