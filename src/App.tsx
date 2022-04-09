@@ -10,6 +10,7 @@ import VS from "./pages/blogs/grid/vs";
 import Who from "./pages/blogs/grid/who";
 import Img50 from "./pages/img50";
 import Product from "./pages/products";
+import Img50Alias from "./pages/blogs/grid/img50";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/blog/responsive" element={<Responsive />} />
         <Route path="/blog/dev" element={<Dev />} />
         <Route path="/blog/situation" element={<Situation />} />
+        <Route path="/blog/img50" element={<Img50Alias />} />
       </Routes>
     </BrowserRouter>
   );
