@@ -55,7 +55,7 @@ const Responsive = () => {
             what exactly does image-enhancing mean?
           </div>
           <p className={Style.p}>
-            Using app likes <Link to="/p">img50</Link>, you can enhance your
+            Using app likes <Link to="/">img50</Link>, you can enhance your
             image in various ways. For example, you may change your shot's
             lighting and color characteristics using the most popular photo
             editing software.
