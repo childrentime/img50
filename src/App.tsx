@@ -4,6 +4,7 @@ import Blogs from "./pages/blogs";
 import Two from "./pages/blogs/grid/2022";
 import Dev from "./pages/blogs/grid/dev";
 import Responsive from "./pages/blogs/grid/responsive";
+import Situation from "./pages/blogs/grid/situation";
 import Tools from "./pages/blogs/grid/tools";
 import VS from "./pages/blogs/grid/vs";
 import Who from "./pages/blogs/grid/who";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/blog/vs" element={<VS />} />
         <Route path="/blog/responsive" element={<Responsive />} />
         <Route path="/blog/dev" element={<Dev />} />
+        <Route path="/blog/situation" element={<Situation />} />
       </Routes>
     </BrowserRouter>
   );
