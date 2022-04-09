@@ -1,0 +1,45 @@
+.title {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+.divider {
+  background-color: #133570;
+}
+
+.whoImageContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.whoImage {
+  width: 100%;
+}
+
+.textContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p {
+  padding: 15px 10px;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+
+.h1 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.images {
+  display: flex;
+}

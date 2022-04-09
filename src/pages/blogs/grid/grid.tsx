@@ -178,7 +178,12 @@ const Grid = () => {
           </div>
         </div>
       </div>
-      <div className={Style.row}>
+      <div
+        className={Style.row}
+        onClick={() => {
+          navigation("/blog/software");
+        }}
+      >
         <div className={Style.card}>
           <div className={Style.imageWrapper}>
             <img

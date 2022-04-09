@@ -11,6 +11,7 @@ import Who from "./pages/blogs/grid/who";
 import Img50 from "./pages/img50";
 import Product from "./pages/products";
 import Img50Alias from "./pages/blogs/grid/img50";
+import Software from "./pages/blogs/grid/software";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/blog/dev" element={<Dev />} />
         <Route path="/blog/situation" element={<Situation />} />
         <Route path="/blog/img50" element={<Img50Alias />} />
+        <Route path="/blog/software" element={<Software />} />
       </Routes>
     </BrowserRouter>
   );
