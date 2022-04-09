@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react";
 import { Button } from "antd";
 import Style from "./style.module.css";
+import { useNavigate } from "react-router-dom";
 const ContainerText = () => {
+  const navigation = useNavigate();
   const containerRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     setTimeout(() => {
@@ -20,6 +22,9 @@ const ContainerText = () => {
         <Button
           shape="round"
           style={{ color: "white", backgroundColor: "#224279" }}
+          onClick={() => {
+            navigation("/products");
+          }}
         >
           Try now for free
         </Button>

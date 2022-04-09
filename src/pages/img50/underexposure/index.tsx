@@ -2,7 +2,9 @@ import Style from "./style.module.css";
 import compare from "../../../assets/images/compare.png";
 import { Button } from "antd";
 import { useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 const Underexposure = () => {
+  const navigation = useNavigate();
   const imageRef = useRef<HTMLImageElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -11,8 +13,6 @@ const Underexposure = () => {
     ) {
       if (entries[0].isIntersecting === true) {
         imageRef.current!.style.animationName = `${Style.rightSlidein}`;
-      } else {
-        imageRef.current!.style.animationName = "";
       }
     });
     const intersectionTextObserver = new IntersectionObserver(function (
@@ -20,8 +20,6 @@ const Underexposure = () => {
     ) {
       if (entries[0].isIntersecting === true) {
         textRef.current!.style.animationName = `${Style.leftSlidein}`;
-      } else {
-        textRef.current!.style.animationName = "";
       }
     });
     intersectionImageObserver.observe(imageRef.current!);
@@ -42,6 +40,9 @@ const Underexposure = () => {
           <Button
             shape="round"
             style={{ color: "white", backgroundColor: "#224279" }}
+            onClick={() => {
+              navigation("/products");
+            }}
           >
             Enhance Photos Now
           </Button>
