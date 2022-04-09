@@ -6,8 +6,11 @@ import twitter from "./twitter.svg";
 import instagram from "./instagram.svg";
 import youtube from "./youtube.svg";
 import { RightOutlined } from "@ant-design/icons";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Information = () => {
+  const navigation = useNavigate();
+  const location = useLocation();
   return (
     <div className={Style.container}>
       <div className={Style.left}>
@@ -21,9 +24,48 @@ const Information = () => {
         </p>
       </div>
       <div className={Style.leftM}>
-        <div style={{ marginBottom: 20 }}>Products</div>
-        <div style={{ marginBottom: 20 }}>Blog</div>
-        <div>Contact</div>
+        {location.pathname !== "/" && (
+          <div
+            style={{ marginBottom: 20 }}
+            onClick={() => {
+              navigation("/");
+            }}
+          >
+            Overview
+          </div>
+        )}
+
+        {location.pathname !== "/products" && (
+          <div
+            style={{ marginBottom: 20 }}
+            onClick={() => {
+              navigation("/products");
+            }}
+          >
+            Products
+          </div>
+        )}
+
+        {location.pathname !== "/blog" && (
+          <div
+            style={{ marginBottom: 20 }}
+            onClick={() => {
+              navigation("/blog");
+            }}
+          >
+            Blog
+          </div>
+        )}
+
+        {location.pathname !== "/about" && (
+          <div
+            onClick={() => {
+              navigation("/about");
+            }}
+          >
+            Contact
+          </div>
+        )}
       </div>
       <div className={Style.rightM}>
         <div style={{ marginBottom: 20 }}>
