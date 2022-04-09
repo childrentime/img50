@@ -104,7 +104,9 @@ const VS = () => {
           simple and effective photo enlarger software.
         </p>
       </div>
-      <Footer />
+      <div style={{ marginLeft: 20, marginRight: 20 }}>
+        <Footer />
+      </div>
     </>
   );
 };

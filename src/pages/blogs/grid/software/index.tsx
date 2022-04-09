@@ -141,7 +141,9 @@ const Software = () => {
           <img alt="" src={upgrade} className={Style.whoImage} />
         </div>
       </div>
-      <Footer />
+      <div style={{ marginLeft: 20, marginRight: 20 }}>
+        <Footer />
+      </div>
     </>
   );
 };

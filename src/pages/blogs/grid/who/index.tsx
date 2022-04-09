@@ -63,7 +63,9 @@ const Who = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      <div style={{ marginLeft: 20, marginRight: 20 }}>
+        <Footer />
+      </div>
     </>
   );
 };
