@@ -23,7 +23,9 @@ const Software = () => {
           <div className={Style.h1}>What Software Can Enhance Photo Fast?</div>
           <p className={Style.p}>
             <div>
-              1. Img50%
+              <div style={{ textDecoration: "underline", fontWeight: "bold" }}>
+                1. Img50%
+              </div>
               <br /> By using an AI to upscale your images, Img50% performs
               next-level enchantment to your photos with a faster, reliable, and
               safer process.
@@ -59,9 +61,12 @@ const Software = () => {
           </div>
           <p className={Style.p}>
             <div>
-              2. GIMP An open-source editor that supports multiple plug-ins,
-              GIMP allows you to choose how you want your photos to look after
-              manipulation and editing.
+              <div style={{ textDecoration: "underline", fontWeight: "bold" }}>
+                2. GIMP
+              </div>
+              An open-source editor that supports multiple plug-ins, GIMP allows
+              you to choose how you want your photos to look after manipulation
+              and editing.
               <br />
               <br />
               2.1 How Does GIMP work?
@@ -99,9 +104,10 @@ const Software = () => {
           </p>
           <img alt="" src={transform} className={Style.whoImage} />
           <p className={Style.p}>
-            {" "}
             <div>
-              3. Icons8
+              <div style={{ textDecoration: "underline", fontWeight: "bold" }}>
+                3. Icons8
+              </div>
               <br /> Through automation and AI, icons8 lets you fully customize
               your photo with numerous features that would certainly make your
               image attention-grabbing.

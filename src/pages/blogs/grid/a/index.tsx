@@ -42,21 +42,26 @@ const A = () => {
             <br /> A good photo more upscale should be able to provide you with
             the following things:
             <br />
-            <br /> 1.options in photo enhancement
-            <br /> If you need a photo upscaler, we recommend that you find one
-            that enlarges your photo without sacrificing quality as most
-            photos-when stretched-will change their resolution automatically.
             <br />
-            <br /> 2. Budget-friendly
-            <br /> Not everything comes free, but if you do find a photo
-            upscaler that's free, good for you! If not, try and look for the
+            <div style={{ textDecoration: "underline", fontWeight: "bold" }}>
+              1.options in photo enhancement
+            </div>
+            If you need a photo upscaler, we recommend that you find one that
+            enlarges your photo without sacrificing quality as most photos-when
+            stretched-will change their resolution automatically.
+            <div style={{ textDecoration: "underline", fontWeight: "bold" }}>
+              2. Budget-friendly
+            </div>
+            Not everything comes free, but if you do find a photo upscaler
+            that's free, good for you! If not, try and look for the
             budget-friendly option while still having essential features that
             you can use.
-            <br /> <br />
-            3. Easy to use
-            <br /> UI is important to all websites. A good photo upscaleer
-            software will have a simple UI where all you need to do is click and
-            drag, then voila. You got yourself a high-definition photo.
+            <div style={{ textDecoration: "underline", fontWeight: "bold" }}>
+              3. Easy to use
+            </div>
+            UI is important to all websites. A good photo upscaleer software
+            will have a simple UI where all you need to do is click and drag,
+            then voila. You got yourself a high-definition photo.
           </p>
         </div>
       </div>
