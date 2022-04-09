@@ -13,10 +13,12 @@ import Product from "./pages/products";
 import Img50Alias from "./pages/blogs/grid/img50";
 import Software from "./pages/blogs/grid/software";
 import A from "./pages/blogs/grid/a";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Img50 />} />
         <Route path="/products" element={<Product />} />
