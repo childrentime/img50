@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/about";
 import Blogs from "./pages/blogs";
 import Two from "./pages/blogs/grid/2022";
+import Responsive from "./pages/blogs/grid/responsive";
 import Tools from "./pages/blogs/grid/tools";
 import VS from "./pages/blogs/grid/vs";
 import Who from "./pages/blogs/grid/who";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blog/2022" element={<Two />} />
         <Route path="/blog/tools" element={<Tools />} />
         <Route path="/blog/vs" element={<VS />} />
+        <Route path="/blog/responsive" element={<Responsive />} />
       </Routes>
     </BrowserRouter>
   );
