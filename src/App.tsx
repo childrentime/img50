@@ -12,6 +12,7 @@ import Img50 from "./pages/img50";
 import Product from "./pages/products";
 import Img50Alias from "./pages/blogs/grid/img50";
 import Software from "./pages/blogs/grid/software";
+import A from "./pages/blogs/grid/a";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/blog/situation" element={<Situation />} />
         <Route path="/blog/img50" element={<Img50Alias />} />
         <Route path="/blog/software" element={<Software />} />
+        <Route path="/blog/a" element={<A />} />
       </Routes>
     </BrowserRouter>
   );
