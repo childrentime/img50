@@ -27,6 +27,9 @@ const Visit = () => {
           <div className={`${Style.point} ${Style.pointM}`}>
             <div title="Brazil" className={Style.tip}></div>
           </div>
+          <div className={`${Style.point} ${Style.pointM}`}>
+            <div title="Wuhan" className={Style.tip}></div>
+          </div>
         </div>
       </div>
     </div>

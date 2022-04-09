@@ -83,6 +83,10 @@
   top: 67%;
   left: 31%;
 }
+.point:nth-child(7) {
+  top: 37%;
+  left: 71%;
+}
 .point {
   position: absolute;
   width: 25px;
