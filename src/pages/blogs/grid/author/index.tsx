@@ -5,7 +5,12 @@ const Author = () => {
   return (
     <div className={Style.author}>
       <div className={Style.imageContainer}>
-        <Image src={avatar} preview={false} height={60} />
+        <Image
+          src={avatar}
+          preview={false}
+          height={60}
+          className={Style.image}
+        />
       </div>
       <div>
         <div className={Style.name}>Zhangqi</div>
