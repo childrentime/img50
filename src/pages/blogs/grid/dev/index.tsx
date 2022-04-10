@@ -11,16 +11,16 @@ const Dev = () => {
     <>
       <div className={Style.container}>
         <div className={Style.title}>
-          Five steps to building an image-enhanced website
+          Five Steps to Building an Image-enhanced Website
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="01 APR 2022 · 7 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>
         <div className={Style.textContainer}>
           <div className={Style.h1}>
-            Five steps to building an image-enhanced website
+            Five Steps to Building an Image-enhanced Website
           </div>
           <img alt="" src={task} className={Style.whoImage} />
           <div className={Style.h1}>Stage 1: Research</div>
@@ -32,6 +32,13 @@ const Dev = () => {
             webpage, realize the connection between front-end and back-end.
             Therefore, in this phase, I acted as a front-end application
             development engineer and UI designer.
+          </p>
+          <div className={Style.h1}>Stage 2: Web Design</div>
+          <p className={Style.p}>
+            Easily create and share website designs with Adobe XD. Design
+            responsive layouts, build interactive experiences, share prototypes
+            and collect feedback, and hand off designs to developers. This is a
+            one-stop website design tool that makes all the processes easy.
           </p>
           <div className={Style.h1}>Stage 3: Software Development</div>
           <p className={Style.p}>

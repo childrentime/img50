@@ -10,18 +10,18 @@ const Responsive = () => {
     <>
       <div className={Style.container}>
         <div className={Style.title}>
-          A new image enhancing technique based on overexposed and underexposed
-          photos
+          A New Image Enhancing Technique Based on Overexposed and Underexposed
+          Photos
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="12 APR 2022 · 5 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>
         <div className={Style.textContainer}>
           <div className={Style.h1}>
-            A new image enhancing technique based on overexposed and
-            underexposed photos
+            A New Image Enhancing Technique Based on Overexposed and
+            Underexposed Photos
           </div>
           <p className={Style.p}>
             Have you ever taken a great photo only to find it was overexposed or
@@ -52,7 +52,7 @@ const Responsive = () => {
             added!
           </p>
           <div className={Style.h1}>
-            what exactly does image-enhancing mean?
+            What Exactly does Image-enhancing Mean?
           </div>
           <p className={Style.p}>
             Using app likes <Link to="/">img50</Link>, you can enhance your

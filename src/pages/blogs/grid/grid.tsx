@@ -30,8 +30,8 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
-            <div className={Style.detail}>WHO Uses img50% Enhancer?</div>
+            <time className={Style.date}>April 11 , 2022</time>
+            <div className={Style.detail}>WHO Uses Img50% Enhancer?</div>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>April 07 , 2022</time>
             <div className={Style.detail}>What is the Img50% Platform?</div>
           </div>
         </div>
@@ -74,9 +74,9 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>April 03 , 2022</time>
             <div className={Style.detail}>
-              Choose the right tools for web design and production
+              Choose the Right Tools for Web Design and Production
             </div>
           </div>
         </div>
@@ -98,9 +98,9 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>April 01 , 2022</time>
             <div className={Style.detail}>
-              Five steps to building an image-enhanced website
+              Five Steps to Building an Image-enhanced Website
             </div>
           </div>
         </div>
@@ -122,9 +122,9 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>March 27 , 2022</time>
             <div className={Style.detail}>
-              How Images are Being Enhanced: Superpower of Img50% enhancer
+              How Images are Being Enhanced: Superpower of Img50% Enhancer
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>March 21 , 2022</time>
             <div className={Style.detail}>
               Situation Appraisal Based on Existing Image Intelligent Processing
               Platform
@@ -171,7 +171,7 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>March 15 , 2022</time>
             <div className={Style.detail}>
               Which is the Best Image Enhancer: Img50% vs. Icons8 vs. Gimp
             </div>
@@ -195,9 +195,9 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>MArch 07 , 2022</time>
             <div className={Style.detail}>
-              What software can be used to enhance pictures
+              What Software Can Be Used to Enhance Pictures
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ const Grid = () => {
             />
           </div>
           <div className={Style.details}>
-            <time className={Style.date}>April 10 , 2022</time>
+            <time className={Style.date}>March 01 , 2022</time>
             <div className={Style.detail}>What Makes a Good Photo Enhancer</div>
           </div>
         </div>

@@ -93,7 +93,7 @@ const Information = () => {
               style={{ width: "calc(100% - 200px)" }}
               placeholder="E-mail"
             />
-            <Button style={{ backgroundColor: "#2E7CD9 " }}>
+            <Button style={{ backgroundColor: "#224279 " }}>
               <RightOutlined style={{ color: "white" }} />
             </Button>
           </Input.Group>

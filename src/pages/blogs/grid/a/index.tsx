@@ -12,7 +12,7 @@ const A = () => {
       <div className={Style.container}>
         <div className={Style.title}>What Makes a Good Photo Enhancer?</div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="01 MAR 2022 · 4 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>

@@ -12,10 +12,10 @@ const Software = () => {
     <>
       <div className={Style.container}>
         <div className={Style.title}>
-          What software can be used to enhance pictures
+          What Software Can Be Used to Enhance Pictures
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="07 MAR 2022 · 7 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>

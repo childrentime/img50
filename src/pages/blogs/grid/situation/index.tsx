@@ -16,7 +16,7 @@ const Situation = () => {
           Platform
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="21 MAR 2022 · 6 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>

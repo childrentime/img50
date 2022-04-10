@@ -41,7 +41,11 @@
 }
 
 .images {
+  width: 100%;
   display: flex;
+}
+.images img {
+  width: 50%;
 }
 
 @media screen and (max-width: 768px) {

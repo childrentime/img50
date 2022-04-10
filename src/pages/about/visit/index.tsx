@@ -18,7 +18,7 @@ const Visit = () => {
           <div className={`${Style.point} ${Style.pointM}`}>
             <div title="Bosnia" className={Style.tip}></div>
           </div>
-          <div className={`${Style.point} ${Style.pointXL}`}>
+          <div className={`${Style.point} ${Style.pointM}`}>
             <div title="United States" className={Style.tip}></div>
           </div>
           <div className={`${Style.point} ${Style.pointL}`}>
@@ -27,7 +27,7 @@ const Visit = () => {
           <div className={`${Style.point} ${Style.pointM}`}>
             <div title="Brazil" className={Style.tip}></div>
           </div>
-          <div className={`${Style.point} ${Style.pointM}`}>
+          <div className={`${Style.point} ${Style.pointXL}`}>
             <div title="Wuhan" className={Style.tip}></div>
           </div>
         </div>

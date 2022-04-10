@@ -10,7 +10,7 @@ const Two = () => {
       <div className={Style.container}>
         <div className={Style.title}>What is the Img50% Platform?</div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="07 APR 2022 · 3 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>

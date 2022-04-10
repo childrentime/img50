@@ -9,10 +9,10 @@ const Tools = () => {
     <>
       <div className={Style.container}>
         <div className={Style.title}>
-          Choose the right tools for web design and production
+          Choose the Right Tools for Web Design and Production
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="03 APR 2022 · 4 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>

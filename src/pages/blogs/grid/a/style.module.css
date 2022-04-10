@@ -52,3 +52,6 @@
 .images {
   display: flex;
 }
+.images img {
+  width: 50%;
+}

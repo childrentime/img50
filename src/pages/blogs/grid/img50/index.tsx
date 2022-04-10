@@ -9,10 +9,10 @@ const Img50 = () => {
     <>
       <div className={Style.container}>
         <div className={Style.title}>
-          How Images are Being Enhanced: Superpower of Img50% enhancer
+          How Images are Being Enhanced: Superpower of Img50% Enhancer
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="27 MAR 2022 · 3 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>

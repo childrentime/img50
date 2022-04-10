@@ -1,7 +1,8 @@
 import Style from "./style.module.css";
 import { Avatar } from "antd";
 import avatar from "./avatar.png";
-const Author = () => {
+const Author = (props: { time: string }) => {
+  const { time } = props;
   return (
     <div className={Style.author}>
       <div className={Style.imageContainer}>
@@ -9,7 +10,7 @@ const Author = () => {
       </div>
       <div>
         <div className={Style.name}>Zhangqi</div>
-        <div className={Style.date}>10 APR 2022 · 3 MIN READ</div>
+        <div className={Style.date}>{time}</div>
       </div>
     </div>
   );

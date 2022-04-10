@@ -9,9 +9,9 @@ const Who = () => {
   return (
     <>
       <div className={Style.container}>
-        <div className={Style.title}>WHO Uses img50% Enhancer?</div>
+        <div className={Style.title}>WHO Uses Img50% Enhancer?</div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="11 APR 2022 · 9 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={who} alt="" className={Style.whoImage} />
         </div>

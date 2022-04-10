@@ -12,7 +12,7 @@ const VS = () => {
           Which is the Best Image Enhancer: Img50% vs. Icons8 vs. Gimp
         </div>
         <Divider className={Style.divider} />
-        <Author />
+        <Author time="15 MAR 2022 · 5 MIN READ" />
         <div className={Style.whoImageContainer}>
           <img src={two} alt="" className={Style.whoImage} />
         </div>
